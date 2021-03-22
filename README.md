@@ -1,16 +1,6 @@
-> To use this template, clone a new repository based on this and
-> 1. Fill out this README.md, guided by the tasks below
-> 1. Implement the test cases in the choosen framework which are listed in [TESTCASES.md](TESTCASES.md)
-> 1. Delete this quotation
-> 1. Delete tasks in all files
-
 # evaluation-js-apickli
 
-- [ ] Update name to `evaluation-js-(framework name)` here and in `package.json` too, including repository URLs.
-
 This is a repository for a test-ware for evaluating certain the **Apickli** JS test automation tools.
-
-- [ ] Update description to describe purpose of this repository, e.g. This is a test-ware for evaluation FRAMEWORK test automation tool.
 
 ## Prerequisites
 
