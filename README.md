@@ -4,24 +4,26 @@
 > 1. Delete this quotation
 > 1. Delete tasks in all files
 
-# evaluation-js-template
+# evaluation-js-apickli
 
 - [ ] Update name to `evaluation-js-(framework name)` here and in `package.json` too, including repository URLs.
 
-This is a template repository to create test-ware for evaluating certain (**JS**) test automation tools.
+This is a repository for a test-ware for evaluating certain the **Apickli** JS test automation tools.
 
 - [ ] Update description to describe purpose of this repository, e.g. This is a test-ware for evaluation FRAMEWORK test automation tool.
 
 ## Prerequisites
 
+In order to execute the implemented test cases, an account is needed on the https://www.themoviedb.org/.
+If the account is created the API Key (v3 auth) should be added to as the `THEMOVIEDB_API_KEY`.
+
 1. Node.js LTS
-1. [ ] Add additional prerequisites if necessary
 
 ## Framework used
 
-- [ ] Add name of the framework
-- [ ] Add URL to the homepage and API docs of the framework
-- [ ] Add brief description of the framework
+- Apickli
+- https://github.com/apickli/apickli
+- Apickli is a REST API integration testing framework based on cucumber.js. It provides a gherkin framework and a collection of utility functions to make API testing easy and less time consuming.
 
 ## Test cases
 
@@ -33,12 +35,9 @@ The implemented test cases can be found in [TESTCASES.md](TESTCASES.md).
 npm install
 ```
 
-- [ ] Add additional setup instructions if necessary
-
 ## Execution
 
 ```bash
 npm test
 ```
 
-- [ ] Add additional instructions to run tests
