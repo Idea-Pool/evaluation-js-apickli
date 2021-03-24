@@ -5,14 +5,14 @@ Feature: Rating a movie
 
   Background: Getting guest session
     Given I set query parameters to
-      | parameter | value |
-      | api_key | `api_key` | 
+      | parameter | value     |
+      | api_key   | `api_key` |
     And I GET /authentication/guest_session/new
     And I store the value of body path $.guest_session_id as guest_session_id in scenario scope
     And I set query parameters to
-      | parameter | value |
-      | guest_session_id | `guest_session_id` | 
-      | api_key | `api_key` |
+      | parameter        | value              |
+      | guest_session_id | `guest_session_id` |
+      | api_key          | `api_key`          |
 
   @id(TC-3)
   Scenario: A rating can be added to a movie

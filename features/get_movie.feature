@@ -5,8 +5,8 @@ Feature: Getting movie data
 
   Background: Setting API key
     Given I set query parameters to
-      | parameter | value |
-      | api_key | `api_key` |
+      | parameter | value     |
+      | api_key   | `api_key` |
 
   @id(TC-1)
   Scenario: A movie can be retrieved by ID
