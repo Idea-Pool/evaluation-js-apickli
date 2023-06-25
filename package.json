@@ -26,7 +26,7 @@
   "homepage": "https://github.com/idea-pool/evaluation-js-apickli#readme",
   "dependencies": {
     "apickli": "^3.0.2",
-    "cucumber": "^5.1.0",
+    "cucumber": "^6.0.7",
     "eslint": "^7.0.0",
     "husky": "^8.0.3"
   },
