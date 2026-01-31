@@ -27,7 +27,7 @@
   "dependencies": {
     "apickli": "^3.0.2",
     "cucumber": "^6.0.7",
-    "eslint": "^9.26.0",
+    "eslint": "^9.39.2",
     "husky": "^8.0.3"
   },
   "husky": {
